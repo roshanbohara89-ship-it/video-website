@@ -52,12 +52,12 @@
         </ul>
     </div>
     <script>
-        const togglebtn = document.querySelector(".toggle");
+        const ToggleBtn = document.querySelector(".toggle");
         const showcase = document.querySelector (".showcase");
 
-        togglebtn.addEventListner("click",function(){
+        ToggleBtn.addEventListener("click",function () {
             /*activeにする*/
-            togglebtn.classList.toggle("active");
+            ToggleBtn.classList.toggle("active");
             showcase.classList.toggle("active");
         });
     </script>
